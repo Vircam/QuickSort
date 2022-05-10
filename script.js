@@ -20,6 +20,7 @@ function draw() {
         stroke(0);
         fill(255);
         rect(i*w, height - values[i], w, values[i]);
+        Sleep(500);
     }
 }
 
